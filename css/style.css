@@ -37,7 +37,10 @@ ul{
   padding: 0px 12px;
 }
 
-
+.footer{
+  overflow: hidden;
+  position: relative;
+}
 .footer__inner{
   position: relative;
   padding: 100px 0;
