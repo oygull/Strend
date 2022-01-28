@@ -5,8 +5,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  --dosis-family:'Dosis', sans-serif;
+  --title-color:#333;
+  --text-color: #57647c;
+  --bg-color1: #fff;
+  --bg-coloe2: #f2f6f9;
+  --text-color2: #fff;
+  --primary-color:#fe521d;
+}
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  width: 1140px;
+  padding: 0px 12px;
 }
