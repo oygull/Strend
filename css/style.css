@@ -38,8 +38,220 @@ ul{
 }
 
 
-ul{
+.footer__inner{
+  position: relative;
+  padding: 100px 0;
+  background-color: #15171a;
+}
+
+.footer__logolink{
+  display: block;
+  margin-bottom: 18px;
+}
+.footer__box{
+  position: relative;
+  width: 290px;
+  padding: 0 10px;
+  margin-right: 1px solid ;
+}
+.style-none{
   list-style-type: none;
+}
+.footer__text{
+  font-size: 15px;
+  color: var(--text-color2);
+  width: 280px;
+  margin-bottom: 18px;
+  line-height: 1.8;
+}
+.footer__socialitem{
+  width: 35px;
+  height: 35px;
+  background-color: var(--title-color);
+  border-radius: 50%;
+  align-items: center;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.4s ease;
+}
+.footer__socialitem:hover{
+  background-color: #ff4800;
+}
+.footer__socialitem:not(:last-child){
+  margin-right: 10px;
+}
+.footer__socialitem a{
+  text-decoration: none;
+}
+
+.bxl-facebook,
+.bxl-twitter,
+.bxl-instagram,
+.bxl-youtube{
+  font-size: 18px;
+  color: var(--text-color2);
+  display: block;
+  align-items: center;
+}
+
+.footer-title{
+  margin-bottom: 23px;
+  color: var(--text-color2);
+  position: relative;
+  padding-bottom: 6px;
+  font-size: 23px;
+  font-weight: 700;
+  font-family: var(--dosis-family);
+  text-transform: capitalize;
+}
+.footer-title::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background: #ff4800;
+}
+.footer__item {
+  margin-bottom: 12px;
+}
+.footer__item a{
+  text-decoration: none;
+  color: var(--text-color2);
+  font-size: 15px;
+  text-transform: capitalize;
+  line-height: 1.8;
+  margin-left: 5px;
+  z-index: 30;
+  transition: all 0.4s ease;
+}
+.footer__item p{
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--text-color2);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+.footer__copyright{
+  position: relative;
+  z-index: 20;
+  background-color: #000;
+  padding: 20px 0;
+}
+.copy-link{
+  color: var(--text-color2);
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+.footer__item:hover a{
+  color: #ff4800;
+}
+.copy-link:hover{
+  color: #ff4800;
+}
+.copy-box a:nth-child(1){
+  margin-right: 5px;
+}
+.copy-box a:nth-child(2){
+  margin-left: 5px;
+}
+.copy-box p{
+  color: var(--text-color2);
+}
+.copy-text{
+  margin-right: 5px;
+  color: var(--text-color2);
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+.footer__img{
+  position: absolute;
+  top: 20%;
+  right: 18%;
+  z-index: 1;
+}
+.footer__anim:nth-child(1){
+  position: absolute;
+  top: 0;
+  left: 28%;
+  height: 100%;
+  width: 1px;
+  background-color: #ffffff1a;
+  z-index: 10;
+}
+.footer__anim:nth-child(2){
+  position: absolute;
+  top: 0;
+  left: 50.5%;
+  height: 100%;
+  width: 1px;
+  background-color: #ffffff1a;
+  z-index: 10;
+}
+.footer__anim:nth-child(3){
+  position: absolute;
+  top: 0;
+  left: 72.5%;
+  height: 100%;
+  width: 1px;
+  background-color: #ffffff1a;
+  z-index: 10;
+}
+.footer__anim:nth-child(1)::before{
+  content: '';
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: absolute;
+  top: -120px;
+  left: 28%;
+  width: 2px;
+  height: 120px;
+  background-image:  linear-gradient(0deg, rgba(255,255,255,1) 6%, rgba(21,23,26,1) 79%);
+  animation: foot-anim 2s ease-in-out  infinite;
+  z-index: 10;
+}
+.footer__anim:nth-child(2)::before{
+  content: '';
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: absolute;
+  top: -120px;
+  left: 50.5%;
+  width: 2px;
+  height: 120px;
+  background-image:  linear-gradient(0deg, rgba(255,255,255,1) 6%, rgba(21,23,26,1) 79%);
+  animation: foot-anim 2s ease-in-out  infinite;
+  z-index: 10;
+}
+.footer__anim:nth-child(3)::before{
+  content: '';
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: absolute;
+  top: -120px;
+  left: 70.5%;
+  width: 2px;
+  height: 120px;
+  background-image:  linear-gradient(0deg, rgba(255,255,255,1) 6%, rgba(21,23,26,1) 79%);
+  animation: foot-anim 2s ease-in-out  infinite;
+  z-index: 10;
+}
+@keyframes foot-anim {
+  0%{
+    transform: translate(0,0)
+  }
+  100%{
+    transform: translate(0 ,500px);
+  }
 }
 
 a{
@@ -444,4 +656,5 @@ padding-bottom: 30px;
   transform: rotate(270deg);
   background-color: var(--primary-color);
 }
+
 
