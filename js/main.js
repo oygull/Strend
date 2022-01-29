@@ -2,7 +2,7 @@ window.onscroll = function() {scrollFunction()};
 
 
 function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
     document.getElementById("header").style.backgroundColor= "#fff";
     document.getElementById("demoBtn").style.backgroundColor= "#fe521d";
     document.getElementById("demoBtn").style.color= "#fff";
