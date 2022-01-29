@@ -67,7 +67,7 @@ ul{
   font-size: 18px;
   font-family: var(--dosis-family);
   font-weight: 600;
-  color: var(--title-color);
+  color: #fff;
 }
 .nav__link .bx{
   position: relative;
@@ -878,4 +878,41 @@ width: 100%;
 }
 .solutions__item:hover .solutions__img{
   transform: rotateY(180deg);
+}
+
+.hero-about{
+  background-image: url('../images/hero2-img.jpg');
+  width: 100%;
+  height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-about__title{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;font-family: var(--dosis-family);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.hero-about__inner{
+  padding-top: 180px;
+}
+.hero-about__link{
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+.hero-about__text{
+  color: #fff;
+  font-family: var(--dosis-family);
+  font-weight: 700;
+}
+.hero-about__divbox{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.459);
+}
+.nav__link__home{
+  color: var(--title-color);
+  font-weight: 600;
 }

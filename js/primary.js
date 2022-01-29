@@ -6,13 +6,10 @@ function scrollFunction() {
     document.getElementById("header").style.backgroundColor= "#fff";
     document.getElementById("demoBtn").style.backgroundColor= "#fe521d";
     document.getElementById("demoBtn").style.color= "#fff";
-    document.getElementById('navLink').style.color= "#000";
   } else {
     document.getElementById("header").style.backgroundColor= "transparent";
     document.getElementById("demoBtn").style.backgroundColor= "#fff";
     document.getElementById("demoBtn").style.color= "#fe521d";
-    document.getElementById('navLink').style.color= "#fff";
- 
   }
 }
 
@@ -26,4 +23,3 @@ elSearchBtn.addEventListener('click', function(){
 elClose.addEventListener('click', function(){
   elModal.classList.remove('show');
 })
-
