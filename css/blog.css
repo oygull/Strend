@@ -282,7 +282,7 @@ a{
   .show{
     display: block;
   }
-  .modal__btn_inner{
+  .modal__btn-inner{
     position: relative;
     padding: 20px;
   
@@ -332,7 +332,7 @@ a{
     padding-bottom: 140px;
 }
 
-.blog-her__title{
+.blog-hero__title{
     color: var(--bg-color1);
     font-family: var(--dosis-family);
     font-size: 40px;
@@ -344,6 +344,9 @@ a{
     font-size: 16px;
     font-family: var(--dosis-family);
     color: var(--primary-color);
+}
+.bxs-chevron-right{
+  color: var(--bg-color1);
 }
 
 
