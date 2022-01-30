@@ -33,10 +33,9 @@ ul{
   font-family: var(--dosis-family);
 }
 .container{
-  width: 1260px;
+  width: 1140px;
   padding: 0px 12px;
 }
-
 
 
 
@@ -459,116 +458,6 @@ padding-bottom: 30px;
 
 
 
-.audience{
-  margin-top: 90px;
-  padding: 110px 0;
-  background-image:
-  url('../images-about/shape.svg'), 
-  url('../images-about/audience-shape2.svg'), 
-  url('../images-about/audience-shape3.png'), 
-  url('../images-about/audience-dot2.png'), 
-  url('../images-about/audience-dot1.png');
-
-  background-size: 21px 20px, 
-  22px 22px, 
-  182px 146px, 
-  15px 15px, 
-  18px 18px;
-  background-position: top left, 
-  bottom right, 
-  bottom left, 
-  top center, 
-  bottom left;
-  background-repeat: no-repeat;
-  animation: about-img, 
-  about-img2, 
-  about-img3, 
-  about-img4, about-img5;
-}
-.audience__title{
-  /* padding-top: 50px; */
-  margin-bottom: 18px;
-  line-height: 1.3;
-  font-size: 40px;
-  font-weight: 700;
-  color: var(--title-color);
-  font-family: Dosis,sans-serif;
-  width: 521px;
-  text-transform: capitalize;
-}
-.audience__text{
-  font-size: 15px;
-  color: var(--text-color);
-  margin-bottom: 15px;
-  line-height: 1.8;
-  width: 521px;
-  margin-bottom: 20px;
-}
-.audience__btn{
-  padding: 11px 32px;
-  background-color: #0062cc;
-  font-size: 16px;
-  font-family: Dosis,sans-serif;
-  color: var(--text-color2);
-  text-transform: capitalize;
-  font-weight: 600;
-  border: 1px solid #005cbf;
-  transition: all 0.4s ease;
-}
-.audience__btn:hover{
-  background-color: #28a745;
-  border: 1px solid transparent;
-}
-.audience__imgbox{
-  position: relative;
-  overflow: hidden;
-}
-.audience__img1{
-  /* overflow: hidden; */
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 5;
-}
-.audience__img2{
-  /* overflow: hidden; */
-  position: absolute;
-  top: 5%;
-  left: 10%;
-  z-index: 12;
-}
-.audience__itemtitle{
-  font-size: 23px;
-  font-weight: 700;
-  color: var(--title-color);
-  font-family: Dosis,sans-serif;
-  margin-bottom: 13px;
-}
-.audience__itemtext{
-    font-size: 15px;
-    color: var(--text-color);
-    margin-bottom: 15px;
-    line-height: 1.8;
-    width: 356px;
-}
-.audience__content{
-  margin-bottom: 70px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
   overflow: hidden;
   position: relative;
@@ -577,6 +466,7 @@ padding-bottom: 30px;
   position: relative;
   padding: 100px 0;
   background-color: #15171a;
+  z-index: 100;
 }
 
 .footer__logolink{
@@ -585,8 +475,7 @@ padding-bottom: 30px;
 }
 .footer__box{
   position: relative;
-  width: 290px;
-  padding: 0 10px;
+  width: 261px;
   margin-right: 1px solid ;
 }
 .style-none{
@@ -595,7 +484,7 @@ padding-bottom: 30px;
 .footer__text{
   font-size: 15px;
   color: var(--text-color2);
-  width: 280px;
+  width: 260px;
   margin-bottom: 18px;
   line-height: 1.8;
 }
@@ -651,13 +540,29 @@ padding-bottom: 30px;
 .footer__item {
   margin-bottom: 12px;
 }
-.footer__item a{
+.footer__iteminner a{
   text-decoration: none;
   color: var(--text-color2);
   font-size: 15px;
   text-transform: capitalize;
   line-height: 1.8;
   margin-left: 5px;
+  z-index: 30;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.footer__itemtext{
+  font-weight: 700;
+  color: var(--text-color2);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.footer__item a{
+  text-decoration: none;
+  color: var(--text-color2);
+  font-size: 15px;
+  text-transform: capitalize;
+  line-height: 1.8;
   z-index: 30;
   transition: all 0.4s ease;
 }
@@ -697,6 +602,9 @@ padding-bottom: 30px;
 .copy-box p{
   color: var(--text-color2);
 }
+.footer__iteminner:hover a{
+  color: #ff4800;
+}
 .copy-text{
   margin-right: 5px;
   color: var(--text-color2);
@@ -706,13 +614,13 @@ padding-bottom: 30px;
 .footer__img{
   position: absolute;
   top: 20%;
-  right: 18%;
+  right: 20%;
   z-index: 1;
 }
 .footer__anim:nth-child(1){
   position: absolute;
   top: 0;
-  left: 28%;
+  left: 30%;
   height: 100%;
   width: 1px;
   background-color: #ffffff1a;
@@ -730,7 +638,7 @@ padding-bottom: 30px;
 .footer__anim:nth-child(3){
   position: absolute;
   top: 0;
-  left: 72.5%;
+  left: 70%;
   height: 100%;
   width: 1px;
   background-color: #ffffff1a;
