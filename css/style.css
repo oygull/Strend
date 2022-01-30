@@ -23,7 +23,7 @@ body {
 }
 
 .container{
-  width: 1140px;
+  width: 1300px;
   padding: 0px 12px;
 }
 
@@ -180,7 +180,7 @@ body {
 }
 .pricing__x__icon{
   top: 420px;
-=======
+}
 ul{
   list-style: none;
 }
@@ -193,9 +193,6 @@ ul{
   font-family: var(--dosis-family);
 }
 
-.container{
-  width: 1280px;
-}
 
 
 
