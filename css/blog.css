@@ -998,7 +998,7 @@ a{
   cursor: pointer;
   border: none;
   background-color: transparent;
-  padding-bottom: 30px;
+padding-bottom: 30px;
 }
 .show{
   display: block;

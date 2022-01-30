@@ -33,7 +33,9 @@ ul{
   font-family: var(--dosis-family);
 }
 
-
+.container{
+  width: 1280px;
+}
 
 
 
