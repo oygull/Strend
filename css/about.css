@@ -1128,27 +1128,14 @@ ul{
     transition: all 0.5s ease;
   }
 
-  .plans__item:nth-child(1):hover .plans__link{
-    background-color: var(--primary-color);
-    color: var(--text-color2);
-  }
-  .plans__item:nth-child(2):hover .plans__link{
-    background-color: var(--primary-color);
-    color: var(--text-color2);
-  }
-  .plans__item:nth-child(3):hover .plans__link{
-    background-color: var(--primary-color);
-    color: var(--text-color2);
-  }
-
   .plans__link:hover{
-    background-color: #28a745;
+    background: #28a745;
     color: var(--text-color2);
   }
 
 
 
-  /* .plans__link::after{
+  .plans__link::after{
     content: '';
     opacity: 0;
     position: absolute;
@@ -1161,14 +1148,14 @@ ul{
     transition: opacity 0.5s;
     background-color: var(--primary-color);
     transition: all 0.5s ease;
-  } */
-  /* .plans__item:hover .plans__link::after{
+  }
+  .plans__item:hover .plans__link::after{
     opacity: 1;
-  } */
-  /* .plans__link:hover::after{
+  }
+  .plans__link:hover::after{
     background-color: var(--hover-color);
     transition: all 0.5s ease-in-out;
-  } */
+  }
 
 
 
