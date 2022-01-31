@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/col.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/projects.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         </a>
         <nav class="header__nav nav">
           <ul class="nav__list row middle">
-            <li class="nav__item home"><a href="index.html" class="nav__link">Home <i class='bx bx-chevron-down'></i></a>
+            <li class="nav__item home"><a href="index.html" class="nav__link" id='navLink'>Home <i class='bx bx-chevron-down'></i></a>
             <ul class="home__dropdown">
               <li class="home__item"><a href="index.html" class="home__link">Home Demo-1</a></li>
               <li class="home__item home__item--active"><a href="index.html" class="home__link">Home Demo-2</a></li>
@@ -33,7 +33,7 @@
               <li class="home__item"><a href="index.html" class="home__link">Home Demo-5</a></li>
             </ul>
             </li>
-            <li class="nav__item pages"><a href="about.html" class="nav__link">Pages <i class='bx bx-chevron-down'></i></a>
+            <li class="nav__item pages"><a href="about.html" class="nav__link" id='navLink'>Pages <i class='bx bx-chevron-down'></i></a>
             <ul class="pages__dropdown">
               <li class="pages__item"><a href="#" class="pages__link">About Us</a> <i class='bx bx-chevron-down'></i></li>
               <li class="pages__item"><a href="#" class="pages__link">Team</a></li>
@@ -45,7 +45,7 @@
               <li class="pages__item"><a href="#" class="pages__link">Terms Of Policy</a></li>
             </ul>
             </li>
-            <li class="nav__item pages"><a href="services.html" class="nav__link">Services <i class='bx bx-chevron-down'></i></a>
+            <li class="nav__item pages"><a href="services.html" class="nav__link" id='navLink'>Services <i class='bx bx-chevron-down'></i></a>
               <ul class="pages__dropdown">
                 <li class="pages__item"><a href="services.html" class="pages__link">Services Style One</a> </li>
                 <li class="pages__item"><a href="services.html" class="pages__link">Services Style Two</a></li>
@@ -57,20 +57,20 @@
                 <li class="pages__item"><a href="services.html" class="pages__link">Terms Of Policy</a></li>
               </ul>
             </li>
-            <li class="nav__item pages"><a href="projects.html" class="nav__link">Projects <i class='bx bx-chevron-down'></i></a>
+            <li class="nav__item pages"><a href="projects.html" class="nav__link" id='navLink'>Projects <i class='bx bx-chevron-down'></i></a>
               <ul class="pages__dropdown">
                 <li class="pages__item"><a href="projects.html" class="pages__link">Projects</a> </li>
                 <li class="pages__item"><a href="projects.html" class="pages__link">Project Details</a></li>
               </ul>
             </li>
-            <li class="nav__item"><a href="shop.html" class="nav__link">Shop</a></li>
-            <li class="nav__item blog"><a href="blog.html" class="nav__link">Blog <i class='bx bx-chevron-down'></i></a>
+            <li class="nav__item"><a href="shop.html" class="nav__link" id='navLink'>Shop</a></li>
+            <li class="nav__item blog"><a href="blog.html" class="nav__link" id='navLink'>Blog <i class='bx bx-chevron-down'></i></a>
               <ul class="blog__dropdown">
                 <li class="blog__item"><a href="projects.html" class="blog__link">Blog Grid</a> </li>
                 <li class="blog__item"><a href="projects.html" class="blog__link">Blog Right Sidebar</a></li>
                 <li class="blog__item"><a href="projects.html" class="blog__link">Blog Details</a></li>
               </ul></li>
-            <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+            <li class="nav__item"><a href="contact.html" class="nav__link" id='navLink'>Contact</a></li>
           </ul>
         </nav>
         <div class="header__btns row middle">
@@ -90,6 +90,96 @@
       <div class="modal__btn_inner"></div>
     </button>
   </div>
+
+  <div class="hero-about">
+    <div class="hero-about__divbox">
+      <ul class="hero-about__animlist">
+        <li class="hero-about__anim"></li>
+        <li class="hero-about__anim"></li>
+        <li class="hero-about__anim"></li>
+      </ul>
+      <div class="container">
+        <div class="hero-about__inner">
+          <h2 class="hero-about__title">Project</h2>
+          <div class="row middle">
+            <a class="hero-about__link" href="index.html">Home</a>
+            <p class="hero-about__text row middle"><i class='bx bx-chevron-right'></i>Project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<main>
+  <section id="index-projects" class="index-projects index-projects--second">
+    <ul class="index-projects__list index-projects__list--second row between middle">
+        <li class="index-projects__item index-projects__item--wrap index-projects__item--first ">
+            <div class="index-projects__images">
+                <button class="index-projects__second__btn">
+                    <i class='bx bx-plus'></i>
+                </button>
+            </div>
+        </li>
+
+        <li class="index-projects__item index-projects__item--wrap index-projects__item--second">
+            <div class="index-projects__images">
+                <button class="index-projects__second__btn">
+                    <i class='bx bx-plus'></i>
+                </button>
+            </div>
+        </li>
+
+        <li class="index-projects__item index-projects__item--wrap index-projects__item--third">
+            <div class="index-projects__images">
+                <button class="index-projects__second__btn">
+                    <i class='bx bx-plus'></i>
+                </button>
+            </div>
+        </li>
+
+        <li class="index-projects__item index-projects__item--wrap index-projects__item--fourth">
+            <div class="index-projects__images">
+                <button class="index-projects__second__btn">
+                    <i class='bx bx-plus'></i>
+                </button>
+            </div>
+        </li>
+
+        <li class="index-projects__item index-projects__item--wrap index-projects__item--fifth">
+            <div class="index-projects__images">
+                <button class="index-projects__second__btn">
+                    <i class='bx bx-plus'></i>
+                </button>
+            </div>
+        </li>
+
+        <li class="index-projects__item index-projects__item--wrap index-projects__item--sixth">
+            <div class="index-projects__images">
+                <button class="index-projects__second__btn">
+                    <i class='bx bx-plus'></i>
+                </button>
+            </div>
+        </li>
+
+        <li class="index-projects__item index-projects__item--wrap index-projects__item--seventh">
+            <div class="index-projects__images">
+                <button class="index-projects__second__btn">
+                    <i class='bx bx-plus'></i>
+                </button>
+            </div>
+        </li>
+
+        <li class="index-projects__item index-projects__item--wrap index-projects__item--eight">
+            <div class="index-projects__images">
+                <button class="index-projects__second__btn">
+                    <i class='bx bx-plus'></i>
+                </button>
+            </div>
+        </li>
+    </ul>
+</section>
+</main>
+
   <footer class="footer">
     <div class="footer__inner">
     <div class="container">

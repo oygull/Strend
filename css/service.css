@@ -63,7 +63,7 @@ ul{
     font-size: 18px;
     font-family: var(--dosis-family);
     font-weight: 600;
-    color: var(--title-color);
+   color: #fff;
   }
   .nav__link .bx{
     position: relative;
@@ -84,6 +84,7 @@ ul{
     margin-right: 16px;
     cursor: pointer;
     position: relative;
+    color: #fff;
   }
   .zero{
     position: absolute;
@@ -102,6 +103,11 @@ ul{
     border: none;
     margin-right: 16px;
     cursor: pointer;
+    color: #fff;
+  }
+  .demo-btn:hover{
+    background-color: var(--primary-color);
+    color: #fff;
   }
   .bx-search{
     font-weight: bold;
@@ -881,6 +887,7 @@ ul{
     height: 42px;
     line-height: 42px;
     transition: all 0.6s ease;
+    overflow: hidden;
   }
   .go-link{
     text-decoration: none;
@@ -900,6 +907,7 @@ ul{
     transition: all 0.6s ease;
     overflow: hidden;
   }
+  
   .go-top:hover .go-top::before{
     background-color: #4ac728;
     opacity: 1;

@@ -58,12 +58,16 @@ ul{
     margin-right:18px;
     position: relative;
   }
+  .demo-btn:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+  }
   .nav__link{
     text-decoration: none;
     font-size: 18px;
     font-family: var(--dosis-family);
     font-weight: 600;
-    color: var(--title-color);
+    color: #fff;
   }
   .nav__link .bx{
     position: relative;
@@ -77,6 +81,7 @@ ul{
   }
   .header__btns{
     margin-left: 20px;
+  
   }
   .basket-btn{
     background-color: transparent;
@@ -84,6 +89,7 @@ ul{
     margin-right: 16px;
     cursor: pointer;
     position: relative;
+    color: #fff;
   }
   .zero{
     position: absolute;
@@ -102,6 +108,7 @@ ul{
     border: none;
     margin-right: 16px;
     cursor: pointer;
+    color: #fff;
   }
   .bx-search{
     font-weight: bold;
@@ -930,18 +937,11 @@ ul{
   font-size: 100px;
   font-weight:normal;
 }
-.bx-chevron-right{
+.trialone__btn--right .bx-chevron-right{
   font-size: 100px;
 }
 
-
-
-
-
-
-
-  
-  .trial{
+.trial{
     background-image: url('../images-about/trial-bg-img.png'), url('../images-about/woman__trial.jpg');
     background-position: top right 0, top  0 left 0;
     background-size: 963px 430px , 640px 430px;
