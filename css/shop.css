@@ -85,7 +85,7 @@ a {
     font-size: 18px;
     font-family: var(--dosis-family);
     font-weight: 600;
-    color: var(--title-color);
+   color: #fff;
 }
 
 .nav__link .bx {
