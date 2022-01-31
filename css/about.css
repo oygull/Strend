@@ -908,7 +908,7 @@ ul{
 .trialone__btn:focus{
   background-color: var(--title-color);
 }
-.trialone__btn--left{
+/* .trialone__btn--left{
   position: absolute;
   top: 160px;
   left: 10px;
@@ -918,8 +918,8 @@ ul{
   background-color: transparent;
   font-size: 100px;
   font-weight:normal;
-}
-.trialone__btn--right{
+} */
+/* .trialone__btn--right{
   position: absolute;
   top: 170px;
   right: 10px;
@@ -929,10 +929,10 @@ ul{
   background-color: transparent;
   font-size: 100px;
   font-weight:normal;
-}
-.bx-chevron-right{
-  font-size: 100px;
-}
+} */
+/* .bx-chevron-right{
+  /* font-size: 100px; */
+} */
 
 
 
