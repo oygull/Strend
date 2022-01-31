@@ -306,7 +306,7 @@ color: var(--title-color);
   color: var(--text-color2);
 }
 .trial__text{
-  color: var(--text-color2);
+  color: var(--text-color);
   max-width: 350px;
   font-size: 15px;
   margin-bottom: 15px;
@@ -1601,7 +1601,7 @@ width: 460px;
   transition: all 0.5s ease;
 }
 .pricing__link--active{
-  background: var(--bg-color1);
+
   border: none;
   color: var(--title-color);
   transition: all 0.5s ease;
@@ -1633,7 +1633,6 @@ width: 460px;
 }
 .plans__item {
   width: 360px;
-  background: var(--text-color2);
   padding: 30px 30px 30px 15px;
   border-radius: 5px;
   box-shadow: 0 0 5px -15px rgba(0,0,0,0.2);
