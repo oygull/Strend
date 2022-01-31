@@ -74,8 +74,8 @@
           </ul>
         </nav>
         <div class="header__btns row middle">
-          <button class="basket-btn"><i class='bx bx-basket' ></i> <div class="zero">0</div></button>
-          <button id="searchBtn" class="search-btn"><i class='bx bx-search' ></i></button>
+          <button class="basket-btn"><i id="bx_btn" class='bx bx-basket' ></i> <div class="zero">0</div></button>
+          <button id="searchBtn" class="search-btn"><i id="bx_btn" class='bx bx-search' ></i></button>
           <button id="demoBtn" class="demo-btn btn">Schedule a Demo</button>
         </div>
       </div>
@@ -112,191 +112,201 @@
 
 <main>
   <section id="index-projects" class="index-projects index-projects--second">
-    <ul class="index-projects__list index-projects__list--second row between middle">
-        <li class="index-projects__item index-projects__item--wrap index-projects__item--first ">
-            <div class="index-projects__images">
-                <button class="index-projects__second__btn">
-                    <i class='bx bx-plus'></i>
-                </button>
-            </div>
-        </li>
-
-        <li class="index-projects__item index-projects__item--wrap index-projects__item--second">
-            <div class="index-projects__images">
-                <button class="index-projects__second__btn">
-                    <i class='bx bx-plus'></i>
-                </button>
-            </div>
-        </li>
-
-        <li class="index-projects__item index-projects__item--wrap index-projects__item--third">
-            <div class="index-projects__images">
-                <button class="index-projects__second__btn">
-                    <i class='bx bx-plus'></i>
-                </button>
-            </div>
-        </li>
-
-        <li class="index-projects__item index-projects__item--wrap index-projects__item--fourth">
-            <div class="index-projects__images">
-                <button class="index-projects__second__btn">
-                    <i class='bx bx-plus'></i>
-                </button>
-            </div>
-        </li>
-
-        <li class="index-projects__item index-projects__item--wrap index-projects__item--fifth">
-            <div class="index-projects__images">
-                <button class="index-projects__second__btn">
-                    <i class='bx bx-plus'></i>
-                </button>
-            </div>
-        </li>
-
-        <li class="index-projects__item index-projects__item--wrap index-projects__item--sixth">
-            <div class="index-projects__images">
-                <button class="index-projects__second__btn">
-                    <i class='bx bx-plus'></i>
-                </button>
-            </div>
-        </li>
-
-        <li class="index-projects__item index-projects__item--wrap index-projects__item--seventh">
-            <div class="index-projects__images">
-                <button class="index-projects__second__btn">
-                    <i class='bx bx-plus'></i>
-                </button>
-            </div>
-        </li>
-
-        <li class="index-projects__item index-projects__item--wrap index-projects__item--eight">
-            <div class="index-projects__images">
-                <button class="index-projects__second__btn">
-                    <i class='bx bx-plus'></i>
-                </button>
-            </div>
-        </li>
-    </ul>
+    <div class="cotainer">
+        <div class="middle between">
+            <ul class="index-projects__list index-projects__list--second">
+                <div class="col-12 row center middle">
+                    <li class="index-projects__item index-projects__item--wrap index-projects__item--first col-3">
+                        <div class="index-projects__images">
+                            <button class="index-projects__second__btn">
+                                <i class='bx bx-plus'></i>
+                            </button>
+                        </div>
+                    </li>
+        
+                    <li class="index-projects__item index-projects__item--wrap index-projects__item--second col-3">
+                        <div class="index-projects__images">
+                            <button class="index-projects__second__btn">
+                                <i class='bx bx-plus'></i>
+                            </button>
+                        </div>
+                    </li>
+        
+                    <li class="index-projects__item index-projects__item--wrap index-projects__item--third col-3">
+                        <div class="index-projects__images">
+                            <button class="index-projects__second__btn">
+                                <i class='bx bx-plus'></i>
+                            </button>
+                        </div>
+                    </li>
+                </div>   
+            </ul>
+            <ul class="index-projects__list index-projects__list--second">
+                <div class="col-12 row center middle">
+                    <li class="index-projects__item index-projects__item--wrap index-projects__item--fifth col-3">
+                        <div class="index-projects__images">
+                            <button class="index-projects__second__btn">
+                                <i class='bx bx-plus'></i>
+                            </button>
+                        </div>
+                    </li>
+        
+                    <li class="index-projects__item index-projects__item--wrap index-projects__item--sixth col-3">
+                        <div class="index-projects__images">
+                            <button class="index-projects__second__btn">
+                                <i class='bx bx-plus'></i>
+                            </button>
+                        </div>
+                    </li>
+        
+                    <li class="index-projects__item index-projects__item--wrap index-projects__item--seventh col-3">
+                        <div class="index-projects__images">
+                            <button class="index-projects__second__btn">
+                                <i class='bx bx-plus'></i>
+                            </button>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
 </section>
+<img class="dot-img" src="images/dot-img.png" alt="dot">
+  <img class="dot2-img" src="images/dot-img.png" alt="dot">
 </main>
 
-  <footer class="footer">
-    <div class="footer__inner">
-    <div class="container">
-      <div class="footer__content row  between">
-        <div class="footer__box">
-          <a class="footer__logolink" href="#">
-            <img src="	https://strend-vue.envytheme.com/_nuxt/img/white-logo.75b255a.png" alt="img" width="150" height="39">
-          </a>
-          <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-          <ul class="footer__sociallist style-none row middle">
-            <li class="footer__socialitem">
-              <a href="#" ><i class='bx bxl-facebook'></i></a>
-            </li>
-            <li class="footer__socialitem">
-              <a href="#"><i class='bx bxl-twitter' ></i></a>
-            </li>
-            <li class="footer__socialitem">
-              <a href="#"><i class='bx bxl-instagram' ></i></a>
-            </li>
-            <li class="footer__socialitem">
-              <a href="#"><i class='bx bxl-youtube'></i></a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__box">
-          <ul class="footer__servicelist style-none ">
-            <li class="footer__item footer-title">
-              Services
-            </li>
-            <li class="footer__item">
-              <a href="#">product engineering</a>
-            </li>
-            <li class="footer__item">
-              <a href="#">UX/UI design</a>
-            </li>
-            <li class="footer__item">
-              <a href="#">big data analysis</a>
-            </li>
-            <li class="footer__item">
-              <a href="#">desktop applications</a>
-            </li>
-            <li class="footer__item">
-              <a href="#">mobile applications</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__box">
-          <ul class="footer__servicelist style-none ">
-            <li class="footer__item footer-title">
-              Quick Links
-            </li>
-            <li class="footer__item">
-              <a href="#">about us</a>
-            </li>
-            <li class="footer__item">
-              <a href="#">blog</a>
-            </li>
-            <li class="footer__item">
-              <a href="#">contact</a>
-            </li>
-            <li class="footer__item">
-              <a href="#">support</a>
-            </li>
-            <li class="footer__item">
-              <a href="#">applications</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__box">
-          <ul class="footer__servicelist style-none ">
-            <li class="footer__item footer-title">
-              Contacts
-            </li>
-            <li class="footer__item row ">
-              <p>Address: 2750 Quadra Street Victoria, Canada</p>
-             
-            </li>
-            <li class="footer__item row middle">
-              <p> Email:</p>
-             <a href="hello@strend.com"> hello@strend.com</a>
-            </li>
-            <li class="footer__item row middle">
-              <p>Phone: </p>
-              <a href="#"> +44 587 154756</a>
-            </li>
-            <li class="footer__item row middle">
-              <p> Fax: </p>
-             <a href="#"> +44 785 4578964</a>
-            </li>
-          </ul>
-        </div>
+<footer class="footer">
+  <div class="footer__inner">
+  <div class="container">
+    <div class="footer__content row  between">
+      <div class="footer__box">
+        <a class="footer__logolink" href="#">
+          <img src="	https://strend-vue.envytheme.com/_nuxt/img/white-logo.75b255a.png" alt="img" width="150" height="39">
+        </a>
+        <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        <ul class="footer__sociallist style-none row middle">
+          <li class="footer__socialitem">
+            <a href="#" ><i class='bx bxl-facebook'></i></a>
+          </li>
+          <li class="footer__socialitem">
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+          </li>
+          <li class="footer__socialitem">
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+          </li>
+          <li class="footer__socialitem">
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__box">
+        <ul class="footer__servicelist style-none ">
+          <li class="footer__item footer-title">
+            Services
+          </li>
+          <li class="footer__item">
+            <a href="#">product engineering</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">UX/UI design</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">big data analysis</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">desktop applications</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">mobile applications</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__box">
+        <ul class="footer__servicelist style-none ">
+          <li class="footer__item footer-title">
+            Quick Links
+          </li>
+          <li class="footer__item">
+            <a href="#">about us</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">blog</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">contact</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">support</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">applications</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__box">
+        <ul class="footer__servicelist style-none ">
+          <li class="footer__item footer-title">
+            Contacts
+          </li>
+          <li class="footer__item row ">
+            <p>Address: 2750 Quadra Street Victoria,<br> Canada</p>
+           
+          </li>
+          <li class="footer__item row middle">
+            <ul class="row middle">
+              <li class="footer__itemtext"> Email:</li>
+              <li class="footer__iteminner"><a href="hello@strend.com"> hello@strend.com</a></li>
+            </ul>      
+          </li>
+          <li class="footer__item row middle">
+            <ul class="row middle ">
+              <li class="footer__itemtext">Phone:</li>
+              <li class="footer__iteminner"><a href="#"> +44 587 154756</a></li>
+            </ul>
+        
+          </li>
+          <li class="footer__item ">
+            <ul class="row middle">
+              <li class="footer__itemtext">Fax:</li>
+              <li class="footer__iteminner"> <a href="#"> +44 785 4578964</a></li>
+            </ul>
+     
+      
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="footer__anim"></div>
-    <div class="footer__anim"></div>
-    <div class="footer__anim"></div>
   </div>
-  <div class="footer__copyright">
-    <div class="container">
-      <div class=" copy row between">
-    <div class="">
-      <p class="copy-text">Copyright © 2021
-         <a class="copy-link" href="#">Strend.</a> 
-          All Rights Reserved
-        </p>
-    </div>
-    <div class="row middle copy-box">
-      <a class="copy-link"  href="#"> Privacy Policy</a>
-      <a class="copy-link" href="#">-  Terms & Conditions</a>
-    </div>
+  <ul class="footer__animlist row middle between">
+  <li class="footer__anim"></li>
+  <li class="footer__anim"></li>
+  <li class="footer__anim"></li>
+</ul>
+</div>
+<div class="footer__copyright">
+  <div class="container">
+    <div class=" copy row between">
+  <div class="">
+    <p class="copy-text">Copyright © 2021
+       <a class="copy-link" href="#">Strend.</a> 
+        All Rights Reserved
+      </p>
+  </div>
+  <div class="row middle copy-box">
+    <a class="copy-link"  href="#"> Privacy Policy</a>
+    <a class="copy-link" href="#">-  Terms & Conditions</a>
   </div>
 </div>
+</div>
 
+</div>
+<img class="footer__img" src="images/footer-bg-img.png" alt="img" width="400" height="292">
+</footer>
+<div class="go-top">
+  <a class="go-link" href="#"><i class='bx bx-up-arrow-alt'></i>
+    <i class='bx bx-up-arrow-alt'></i></a>
+</div>
 
-  </div>
-  <img class="footer__img" src="images/footer-bg-img.png" alt="img" width="400" height="292">
-  </footer>
   <script src="js/main.js"></script>
 </body>
 

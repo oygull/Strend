@@ -7,12 +7,12 @@ function scrollFunction() {
     document.getElementById("header").style.backgroundColor= "#fff";
     document.getElementById("demoBtn").style.backgroundColor= "#fe521d";
     document.getElementById("demoBtn").style.color= "#fff";
-    
+
     nav_links = document.getElementsByClassName('nav__link');
     for (let nav_link of nav_links){
       nav_link.style.color= "#000" ;
     }
-   
+
   } else {
     document.getElementById("header").style.backgroundColor= "transparent";
     document.getElementById("demoBtn").style.backgroundColor= "#fff";
@@ -20,7 +20,6 @@ function scrollFunction() {
     document.getElementById('navLink').style.color= "#fff";
      
     nav_links = document.getElementsByClassName('nav__link');
-    
     for (let nav_link of nav_links){
       nav_link.style.color= "#fff" ;
     }

@@ -547,6 +547,28 @@ ul{
   .audience__content{
     margin-bottom: 100px;
   }
+  .dot-img{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    animation: dot 3s infinite ease alternate;
+  }
+  .dot2-img{
+    position: absolute;
+    top: 800px;
+    left: 800px;
+    animation: dot 3s infinite ease alternate;
+  }
+  @keyframes dot {
+    from {
+      transform: rotate(0deg);
+      transform: translate(0,0);
+    }
+    to {
+      transform: rotate(359deg);
+      transform: translate(50px,50px);
+    }
+  }
   
   
 
